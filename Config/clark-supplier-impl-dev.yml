@@ -1,3 +1,6 @@
+#配置文件名
+clarkConfigName: clark-supplier-impl-dev.yml
+
 #feign超时配置
 ribbon:
   # 连接超时
