@@ -1,13 +1,18 @@
 #配置文件名
 clarkConfigName: clark-consumer-dev.yml
 
-#feign超时配置
+#feign中ribbon超时配置
 ribbon:
   # 连接超时
   ConnectTimeout: 5000
   # 响应超时
   ReadTimeout: 5000
-
+  
+#开启断路器
+feign:
+  hystrix:
+    enabled: true
+    
 #配置hystrix超时
 hystrix:
   command:
