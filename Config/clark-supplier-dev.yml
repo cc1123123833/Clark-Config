@@ -1,5 +1,5 @@
 #配置文件名
-clarkConfigName: clark-supplier-dev.yml
+clarkConfigName: clark-supplier-dev11111.yml
 
 #feign中的ribbon超时配置
 ribbon:
@@ -10,6 +10,14 @@ ribbon:
   
 #配置rabbitMQ
 spring:
+  cloud:
+    #消息总线配置
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+      refresh:
+        enabled: true  #开启总线消息更新功能
   rabbitmq:
     host: localhost
     port: 5672
