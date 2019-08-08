@@ -1,5 +1,5 @@
 #配置文件名
-clarkConfigName: clark-supplier-dev11111.yml
+clarkConfigName: clark-supplier-dev.yml
 
 #feign中的ribbon超时配置
 ribbon:
