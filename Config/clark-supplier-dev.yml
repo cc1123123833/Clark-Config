@@ -7,3 +7,11 @@ ribbon:
   ConnectTimeout: 5000
   # 响应超时
   ReadTimeout: 5000
+  
+#配置rabbitMQ
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
