@@ -1,5 +1,5 @@
 #配置文件名
-clarkConfigName: clark-consumer-dev11111111111111111111111.yml
+clarkConfigName: clark-consumer-dev.yml
 
 #feign中ribbon超时配置
 ribbon:
