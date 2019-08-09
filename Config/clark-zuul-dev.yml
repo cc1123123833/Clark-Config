@@ -1,3 +1,9 @@
+#配置rabbitMQ
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 #网关配置
 zuul:
   ignored-services: "*"
