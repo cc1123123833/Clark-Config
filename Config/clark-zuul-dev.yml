@@ -6,7 +6,7 @@ zuul:
   routes:
     #所有以/consumer开头的请求都转发到clark-consumer应用
     api-clark-consumer:
-      path: /consumer11111/**
+      path: /consumer/**
       serviceId: clark-consumer
     #所有以/consumer开头的请求都转发到clark-consumer应用
     api-clark-supplier:
