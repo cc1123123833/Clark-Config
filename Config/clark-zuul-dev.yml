@@ -1,6 +1,6 @@
 #配置rabbitMQ
   rabbitmq:
-    host: http://192.168.224.134
+    host: 192.168.224.134
     port: 5672
     username: guest
     password: guest
