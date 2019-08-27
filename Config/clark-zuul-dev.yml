@@ -1,4 +1,4 @@
-#配置rabbitMQ
+#配置rabbitMQ 
   rabbitmq:
     host: 192.168.224.134
     port: 5672
